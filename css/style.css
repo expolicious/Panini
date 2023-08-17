@@ -168,3 +168,25 @@ footer ul{
         font-weight: 600;
         font-size: 0.8rem;
       }*/
+
+/* -- Super Mario --*/
+
+.super{
+  height: 100vh;
+}
+
+.supermario{
+  width: 65vw;
+
+   
+
+}
+.card-body{
+  text-align: center;
+}
+.card-text span{
+  color: rgb(192, 0, 0);
+}
+
+/* -- Super Mario --*/
+
