@@ -142,7 +142,11 @@ label .cover-checkbox {
   justify-content: end;
   align-items: center;}
 
-/* -- Pixar --*/
+/* -- Order --*/
+.order{
+height: 100vh;
+padding-top: 7.5vh;
+}
 
 /* -- Media query --*/
 
