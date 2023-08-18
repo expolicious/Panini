@@ -20,17 +20,17 @@
   background-color: rgb(255, 237, 0);
   border: 2px solid rgba(59, 59, 59, 0.733);
   margin-right: 1rem;}
-    
+
 main{
-  background-color: #00509D ;
-  height: 100vh;}
+  background-color: rgb(250, 248, 216) ;
+  height: auto;}
 
 .col{
   max-width: 20rem;
-  margin: 15vh auto 5vh;}
+  margin: 15vh auto 5vh;
+  }
 
 footer ul{
-  font-family: "Noto-Serif-Thai";
   position: fixed;
   bottom: 0;
   background-color: #F8F9FA ;
@@ -129,10 +129,27 @@ label .cover-checkbox {
   max-width: 20rem;}
 
 .card-body{
-  text-align: center;}
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;}
+
 
 .card-text span{
-  color: rgb(192, 0, 0);}
+  color: rgb(192, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;}
 
-/* -- Super Mario --*/
+/* -- Pixar --*/
 
+/* -- Media query --*/
+
+@media (min-width: 768px){
+main {
+  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}}
