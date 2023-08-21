@@ -34,7 +34,7 @@ main{
 .col{
   max-width: 20rem;
   margin: 15vh auto 5vh;
-  }
+ }
 
 footer ul{
   position: fixed;
@@ -173,4 +173,10 @@ padding-top: 7.5vh;}
     margin: 4vh 10vw;}
   
   h1 {
-    padding-top: 5vh;}}
+    padding-top: 5vh;}
+  .impress{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }}
