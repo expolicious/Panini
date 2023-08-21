@@ -21,8 +21,14 @@
   border: 2px solid rgba(59, 59, 59, 0.733);
   margin-right: 1rem;}
 
+.dropdown-item:hover{
+  background-color:rgb(255, 237, 0) ;
+  color: #E00615;
+  text-shadow: 1px 1px 2px black;
+}
+
 main{
-  background-color: rgb(250, 248, 216) ;
+  background: linear-gradient(#E00615, #FFEEC8);;
   height: auto;}
 
 .col{
@@ -36,8 +42,13 @@ footer ul{
   background-color: #F8F9FA ;
   width: 100vw;}
 
- /*-- Batman.html --*/   
+ /*-- index.html --*/   
 
+.landingpage{
+  color: #F8F9FA;
+ 
+}
+/*-- Batman.html --*/ 
 .cont-bg {
   min-height: 100vh;
   padding: 1rem;
@@ -143,23 +154,23 @@ label .cover-checkbox {
   align-items: center;}
 
 /* -- Order --*/
+
 .order{
 height: 100vh;
-padding-top: 7.5vh;
-}
+padding-top: 7.5vh;}
 
 /* -- Media query --*/
 
 @media (min-width: 768px){
-main {
-  height: 100vh;
+  main {
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-}}
+    align-items: center;}}
 
 @media (max-width: 768px){
   .order {
-    margin: 4vh 10vw;
-      
-  }}
+    margin: 4vh 10vw;}
+  
+  h1 {
+    padding-top: 5vh;}}
