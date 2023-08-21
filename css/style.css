@@ -157,3 +157,9 @@ main {
     justify-content: center;
     align-items: center;
 }}
+
+@media (max-width: 768px){
+  .order {
+    margin: 4vh 10vw;
+      
+  }}
